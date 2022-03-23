@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF8" />
+        <title>Alô, Mundo!</title>
+    </h:head>
+    <h:body>
+        <h:form>
+             <h3>Basic</h3>
+        <br/><br/>
+        <p:outputLabel for="@next" value="Select One Basico:" /><font></font>
+        <p:selectOneMenu id="console2" value="#{bean.console2}" style="width:125px"><font></font>
+            <f:selectItem itemLabel="Select One" itemValue="" /><font></font>
+            <f:selectItem itemLabel="Xbox One" itemValue="Xbox One" /><font></font>
+            <f:selectItem itemLabel="PS4" itemValue="PS4" /><font></font>
+            <f:selectItem itemLabel="Wii U" itemValue="Wii U" /><font></font>
+        </p:selectOneMenu>
+             
+        </h:form>
+    </h:body>
+</html>
